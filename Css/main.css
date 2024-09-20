@@ -1,0 +1,161 @@
+.block1{
+    justify-content: left;
+    align-items: flex-start;
+}
+.block1 .menu{
+    width: 200px;
+}
+.block1 .menu a{
+    display: block;
+    text-decoration: none;
+    color: #7b7b7b;
+    font-size: 1.125em;
+    margin-bottom: 8px;
+    padding: 12px 25px;
+}
+.block1 .menu a:hover,
+.block1 .menu a.active{
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #ebb217;
+    border-radius: 20px;  
+} 
+.block1 .items .sort p{
+    color: #444444;
+    font-size: 1em;
+    margin-top: 12px;
+    margin-left: 25px;
+}
+.block1 .items .sort{
+    margin-bottom: 25px;
+}
+.block1 .items{
+    padding-left: 25px;
+    
+}
+.block1 .items .sort p a{
+    display: inline-block;
+    text-decoration: none;
+    color: #000000;
+    margin-left: 10px;
+    width: 65px;
+    background: url("../Imeges/arrow_up.png")no-repeat;
+    background-position: 100% 50%;
+    background-size: 20px;
+}
+.block1 .items .sort p a:hover,
+.block1 .items .sort p a.active {
+    background: url("../Imeges/arrow_dovn.png")no-repeat;
+    color: #ebb217;
+    font-weight: 600;
+    background-position: 100% 50%;
+    background-size: 15px;
+}
+.block1 .items .boxes{
+    flex-wrap: wrap;
+}
+.block1 .items .boxes .box{
+    margin-bottom: 28px;
+}
+.boxes .box figure img{
+    width: 300px;
+    border-radius: 10px;
+}
+.box figure figcaption{
+    padding-left: 23px;
+    color: #4b4b4e;
+}
+.box figure figcaption p{
+    font-size: 0.938em;
+}
+.box figure figcaption p span{
+    font-size: 1.250em;
+    font-weight: 600;
+}
+.block1 .title{
+    color: #4b4b4e;
+    font-size: 0.875em;
+    padding-left: 23px;
+    margin-top: 10px;
+}
+.box button{
+    width: 100%;
+    padding: 12px;
+    border-radius: 20px;
+    background-color: #dfa52b;
+    color: #fff;
+    margin-top: 15px;
+    border: none;
+}
+.box button:hover{
+    cursor: pointer;
+}
+.block1 .items .pagination img{
+width: 13px;
+}
+.block1 .items .pagination a{
+margin: 0 5px;
+color: #686868;
+font-weight: 500;
+text-decoration: none;
+}
+.block1 .items .pagination a:hover,
+.block1 .items .pagination a.active{
+    color: #ebb217;
+}
+.block1 .items .pagination{
+    text-align: center;
+}
+.news h1, .sab h2{
+    text-align: center;
+    margin: 70px 0;
+    color: #4b4b4e;
+    font-size: 1.875em;
+    font-weight: 600;
+}
+.news .boxes .box{
+    margin-right: 28px;
+}
+.sab{
+    text-align: center;
+}
+.sab h2{
+    margin-bottom: 10px;
+}
+.sab .title{
+    font-size: 1.250em;
+    color: #4b4b4e;
+    font-weight: 600;
+    margin-bottom: 45px;
+    
+}
+.sab form div input{
+    border-radius: 20px;
+}
+.sab form div input[type="emeil"]{
+    padding: 15px;
+    border: 1px solid #9a9a9a;
+    width: 260px;
+}
+.sab form div input[type="submit"]{
+    padding: 15px;
+    border: 1px solid #9a9a9a;
+    width: 260px;
+    text-align: center;
+    background-color: #4b4b4e;
+    color: #fff;
+    font-size: 0.938em;
+    border: none;
+}
+.sab form div input[type="submit"]:hover{
+    cursor: pointer;
+}
+.sab p:not(.title){
+    font-size: 13px;
+    color: #8d8d8d;
+    margin-top: 15px;
+    margin-bottom: 60px;
+}
+.sab p:not(.title) a{
+    color: #9393f1;
+}
